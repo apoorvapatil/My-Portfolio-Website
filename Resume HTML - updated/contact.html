@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact me page - HTML5/CSS3 Responsive website</title>
+    <meta charset="utf-8" />
+    
+    <!-- Link to style sheet -->
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    
+    <!-- Google icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <!-- Fa - Fa icons -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    
+    <!-- Link to maintain responsive of the sheet -->
+    <link rel="stylesheet" href="responsive.css" type="text/css" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Favicon implementation -->
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+
+
+<body class="body">
+    
+    <!-- Menu bar --> 
+      <label for="menu-bar" class="menu-bar">Show Menu</label>
+	    <input type="checkbox" id="menu-bar" value="button">
+		    <ul id="menu">
+		    <li class="active"><a href="index.html"><strong>About Me</strong></a></li>
+		    <li>
+			    <a href="education.html"><strong>Education</strong></a>
+			    <ul class="hidden">
+				    <li><a href="projects.html"><strong>Projects</strong></a></li>
+				
+			    </ul>
+		    </li>
+		    <li>
+			    <a href="experience.html"><strong>Experience</strong></a>
+			   
+		    </li>
+		
+		    <li><a href="contact.html"><strong>Contact</strong></a></li>
+	    </ul>
+    
+    
+    <!-- Main contetnt -->
+    <!-- Mailing functionality -->
+    <div class="maincontent">
+        <div class="content">
+            <div class="topcontent">
+            
+                <!-- Contact me by filling details -->
+                <h1>Contact me</h1>
+                
+                <!-- Mail to html tag to send an email -->
+                <form action="mailto:apatil1@scu.edu?Subject=Hello%20again" method="post" enctype="text/plain">
+                
+                        <!-- Information to be filled -->
+                        <div>
+                            <br>
+                            <p>Name</p>
+                            <input name="name" type="text"> 
+                            <br> 
+                        </div>
+                        <div>
+                            <br>
+                            <p>E-Mail (Optional)</p>
+                            <input name="email" type="text">
+                            <br>
+                        </div>
+                        <div>
+                            <br>
+                            <p>Leave a message</p>
+                            <textarea cols="30" name="message" rows="9"></textarea>
+                            <br> 
+                        </div>
+                        <div>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <input name="submit" type="submit" value="Send!"> 
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        </div>                                                                
+                </form>
+                
+            </div>
+            
+            <!-- Contact me by any of the social media listed below -->
+            <div class="social-bar">
+                <header>
+                <h2><a href="#" title="Second post">You can also contact me on</a></h2>
+            </header>
+                <a href="https://www.facebook.com"><i class="fa fa-facebook-official" style="font-size:60px;color:#00C5CD;padding-left: 25%;padding-right: 2%;"></i></a>
+                <a href="https://www.google.com"><i class="fa fa-google-plus-square" style="font-size:60px;color:#00C5CD;padding-right: 2%;"></i></a>
+                <a href="https://www.instagram.com"><i class="fa fa-instagram" style="font-size:60px;color:#00C5CD;padding-right: 2%;"></i></a>
+                <a href="https://www.linkedin.com"><i class="fa fa-linkedin-square" style="font-size:60px;color:#00C5CD;padding-right: 2%;"></i></a>
+                <a href="#"><i class="fa fa-whatsapp" style="font-size:60px;color:#00C5CD;padding-left: 2%;padding-right: auto"></i></a>
+             </div>  
+            
+         </div>
+    </div>
+    
+    
+    <!-- Basic information bar on the side -->
+    <aside class="top-sidebar">
+        <div>
+            
+            <a href="https://www.linkedin.com/in/aapatil"><img src="img/a.jpg" alt="profile_picture" /></a> 
+            
+                
+                <br>
+                <div class="profile">
+                    <i class="material-icons">person</i>
+                     <p>I am currently pursuing MS in Computer Science and Engineering at Santa Clara University and will be graduating in May 2017. I worked as Consultant at Capco Technologies and Accenture Services Private Limited prior to this. Completed my undergraduate in Computer Science and Engineering from Visvesvaraya Technological University before working.</p> 
+            
+                    <hr>
+                </div>
+ 
+                <div class="phone">         
+                    <i class="material-icons">call</i>
+                    <p>(669) 292- 9709</p>
+                    <footer>
+                        <p class="post-info">personal</p>
+                    </footer>
+                    <p>(669) 292- 9709</p>
+                    <footer>
+                        <p class="post-info">work</p>
+                    </footer>
+                    <hr>
+                </div>
+                
+                <div class="email">
+                    <i class="material-icons">email</i>
+                    <p>apatil1@scu.edu</p>
+                    <footer>
+                        <p class="post-info">personal</p>
+                    </footer>
+                    <p>apatil1@scu.edu</p>
+                    <footer>
+                        <p class="post-info">work</p>
+                    </footer>
+                    <hr>
+                </div>
+                    
+                <div class="address">
+                    <i class="material-icons">home</i>
+                    <p>431 El Camino Real</p>
+                    <footer>
+                        <p class="post-info">Santa Clara, CA | 95050</p>
+                    </footer>
+                </div>          
+        
+                              
+        </div>
+    </aside>
+    
+    <!-- Footer of the page -->
+
+    <footer class="mainfooter">
+        <p>Copyright &copy; 2016 <a href="#" title="Apoorva Patil">ApoorvaPatil</a></p>
+    </footer>
+</body>
+  
+</html>

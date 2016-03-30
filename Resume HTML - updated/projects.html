@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My projects page - HTML5/CSS3 Responsive website</title>
+    <meta charset="utf-8" />
+    
+    <!-- Link to the stylesheet -->
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    
+    <!-- Google icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <!-- Link to the stylesheet to maintain responsiveness of the page -->
+    <link rel="stylesheet" href="responsive.css" type="text/css" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+
+
+<body class="body">
+    
+    <!-- Menu bar -->
+      <label for="menu-bar" class="menu-bar">Show Menu</label>
+	    <input type="checkbox" id="menu-bar" value="button">
+		    <ul id="menu">
+		    <li class="active"><a href="index.html"><strong>About Me</strong></a></li>
+		    <li>
+			    <a href="education.html"><strong>Education</strong></a>
+			    <ul class="hidden">
+				    <li><a href="projects.html"><strong>Projects</strong></a></li>
+				
+			    </ul>
+		    </li>
+		    <li>
+			    <a href="experience.html"><strong>Experience</strong></a>
+			    
+		    </li>
+		
+		    <li><a href="contact.html"><strong>Contact</strong></a></li>
+	    </ul>
+    
+    <!-- Academic projects I worked in -->
+    <div class="maincontent">
+        <div class="content">
+        
+            <!-- About projects in Santa Clara university -->
+            <div class="topcontent">
+                <header>
+                    <h2><a href="#" title="First post">Projects in Santa Clara University</a></h2>
+                </header>
+                
+                <!-- Project 1 -->
+                <div>
+                    <p><strong>Detailed Study of Virtualization, Hypervisors and Comparison of Hypervisors</strong></p>
+                    
+                    <footer>
+                        <p class="post-info">Sep 2015</p>
+                    </footer>
+                
+                    <p>We studied about the different types of Virtualization and hypervisors. As part of detailed study, we compared three leading Hypervisors – VirtualBox, VMware and VMM(QEMU) on different operating systems, in the aspects of performance like CPU Speed, Memory operations speed with sequential read/write, File I/O with random read/write and Synchronization primitives – Mutex performance test.</p>
+
+                    <div>
+					  <input type="checkbox" class="read-more-state" id="post-1" />
+
+					  <p class="read-more-wrap"><span class="read-more-target">
+                        As part of detailed study, we compared three leading Hypervisors – VirtualBox, VMware and VMM(QEMU) on different operating systems, in the aspects of performance like CPU Speed, Memory operations speed with sequential read/write, File I/O with random read/write and Synchronization primitives – Mutex performance test.
+Tools: Oracle VM VirtualBox, VMware Workstation Player, Phoronix Test Suite, Sysbench.
+					  </span></p>
+					  
+					  <label for="post-1" class="read-more-trigger"></label>
+					</div>
+            
+                    <br>
+                    <br>
+                    <br>
+                    
+                    
+                    <!-- Project 2 -->
+                    <p><strong>Machine learning algorithm - K means clustering</strong></p>
+                    
+                    <footer>
+                        <p class="post-info">Jan 2016</p>
+                    </footer>
+                    
+                    <p>Working on a machine learning algorithm for movie recommendations to the users on a data set using Mahout/Hadoop and WEKA to analyze the results with respect to the processing time. After computations, it will give a set of movies that a given user is likely to like.</p>
+                    
+                    <div>
+					  <input type="checkbox" class="read-more-state" id="post-2" />
+
+					  <p class="read-more-wrap"><span class="read-more-target">
+                        After computations, it will give a set of movies that a given user is likely to like.
+					  </span></p>
+					  
+					  <label for="post-2" class="read-more-trigger"></label>
+					</div>
+					<br>
+					<br>
+					<br>
+				    <br>
+				<!-- About projects in SDMCET -->	
+                <header>
+                    <h2><a href="#" title="Second post">Projects in SDMCET</a></h2>
+                </header>
+                <br>
+                
+                <div>
+                    <p><strong>Dynamic Load-Balanced Multicast for Data-Intensive Applications on Clouds</strong></p>
+                    
+                    <footer>
+                        <p class="post-info">Jan 2011</p>
+                    </footer>
+                    
+                    <p>We chose two relevant multicast algorithms in the context of cloud computing for data intensive applications for faster transfer of data. The entire project was coded in java language.</p>
+                    <div>
+					  <input type="checkbox" class="read-more-state" id="post-5" />
+					  <p class="read-more-wrap"><span class="read-more-target">
+                        I worked on the multicast algorithm in which it achieves higher performance multicast operations using two phases.<br>
+                        1) The scatter phase<br>
+                        2) The all gather phase
+					  </span></p>					  
+					  <label for="post-5" class="read-more-trigger"></label>
+					</div>
+                    
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                </div>
+            
+        </div>
+    </div>
+    
+    <!-- My basic information in side bar -->
+    <aside class="top-sidebar">
+        <div>
+            
+            <a href="https://www.linkedin.com/in/aapatil"><img src="img/a.jpg" alt="profile_picture" /></a> 
+            
+                
+                <br>
+                <i class="material-icons">person</i>
+                 
+                 <p>I am currently pursuing MS in Computer Science and Engineering at Santa Clara University and will be graduating in May 2017. I worked as Consultant at Capco Technologies and Accenture Services Private Limited prior to this. Completed my undergraduate in Computer Science and Engineering from Visvesvaraya Technological University before working.</p> 
+            
+            <hr>
+            
+                <i class="material-icons">call</i>
+                <p>(669) 292- 9709</p>
+                <footer>
+                    <p class="post-info">personal</p>
+                </footer>
+                <p>(669) 292- 9709</p>
+                <footer>
+                    <p class="post-info">work</p>
+                </footer>
+               
+            <hr>
+            
+                <i class="material-icons">email</i>
+                <p>apatil1@scu.edu</p>
+                <footer>
+                    <p class="post-info">personal</p>
+                </footer>
+                <p>apatil1@scu.edu</p>
+                <footer>
+                    <p class="post-info">work</p>
+                </footer>
+               
+            <hr>
+            <i class="material-icons">home</i>
+                <p>431 El Camino Real</p>
+                <footer>
+                    <p class="post-info">Santa Clara, CA | 95050</p>
+                </footer>          
+        
+                              
+        </div>
+    </aside>
+   </div> 
+    <!-- Footer of the page -->
+    <footer class="mainfooter">
+        <p>Copyright &copy; 2016 <a href="#" title="Apoorva Patil">ApoorvaPatil</a></p>
+    </footer>
+
+</body>
+
+</html>

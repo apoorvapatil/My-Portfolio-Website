@@ -1,0 +1,181 @@
+/*
+    Theme Name: Resume using HTML/CSS3 Layout
+    Date: January 22 2016
+    Description: Basic HTML/CSS Resume 
+    Version: 1.0
+    Author: Apoorva Patil
+
+*/
+
+/* For medias like screens of max width 1040px */
+
+@media screen and (max-width: 1400px){
+    
+    /* Margin between content and Menubar */    
+    .topcontent {
+        margin-top: 5%;
+    }
+    
+    /* Margin between content and Menubar */
+    .top-sidebar {        
+        margin-top: 8%;       
+        
+    } 
+    /* resizing of text box */
+    input[type=text], textarea {
+        width: 80%;
+    }
+	
+	
+}
+
+/* For medias like screens of max width 760px */
+
+@media screen and (max-width : 760px){
+	/*Make dropdown links appear inline*/
+	ul {
+		position: static;
+		display: none;
+	}
+	/*For spacing in vertical*/
+	li {
+		margin-bottom: 1px;
+	}
+	/*Menus full width*/
+	ul li, li a {
+		width: 100%;
+	}
+	/*Munu bar link*/
+	.menu-bar {
+		display:block;
+		background: #00C5CD;
+		
+	}
+	/* resizing of text box */
+    input[type=text], textarea {
+        width: 80%;
+    }
+      
+	
+}
+
+/* For medias like screens of max width 600px */
+
+@media only screen and (min-width: 150px) and (max-width: 600px)
+{
+    /* resizing for body */
+    .body {
+    width: 90%;
+    font-size: 95%;
+    }
+    
+    /* resizing for content */    
+    .content {
+        width: 100%;
+        float: left;
+        margin-top: 2%
+    }
+    
+    /* resizing for topcontent */
+    .topcontent {
+        background-color: white;
+        border-radius: 1px;
+        -moz-border-radius: 1px;
+        -webkit-border-radius: 1px;
+        padding: 3% 5%;
+        /*margin-top: 2%;*/
+        margin-bottom: 4%
+    }
+
+    /* resizing for bottomcontent */
+    .bottomcontent {
+        
+        margin-bottom: 3%
+    }
+
+    /* resizing for top sidebar */    
+    .top-sidebar {
+        width: 90%;
+        padding: 3% 5%;
+        /*margin-top: 2%;*/
+        margin-bottom: 4%;
+        margin-left: 0.2%;
+        margin-right: 0.5%;
+        
+    }   
+
+    /* resizing for bottom sidebar */
+    .bottom-sidebar {
+        width: 90%;
+        padding: 3% 5%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+        margin-left: 2%;
+        margin-right: 0.2%;
+        
+    }
+
+    /* resizing for small post under headings */
+    .post-info {
+        display: none;
+    }
+
+    /* resizing for contact text area */    
+    input, textarea {
+        background-color: white;
+        border-radius: 1px;
+        -moz-border-radius: 1px;
+        -webkit-border-radius: 1px;
+        padding: 3% 5%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+        width: 100%;
+    }
+
+    /* resizing for all paragraph content */    
+    p {
+        font-family: 'roboto', sans-serif;
+        font-size: large;
+        margin-bottom: -5px;
+    }
+    
+    /* resizing for textare */    
+    input[type=text], textarea {
+        width: 80%;
+        background-color: #e0e0e0;
+        border: 1px solid #00C5CD;
+    }
+    
+    /* resizing for submit button */    
+    input[type=submit] {
+        width: 100px;
+        background-color: #00C5CD;
+        border: 1px solid #00C5CD;
+        font-size: large;
+        color: #FFFFFF;
+    }
+    
+    /* resizing if hovered on submit button */    
+    input[type=submit]:hover {
+        background-color: #00C5CD;
+        color: white;
+        cursor: pointer;
+    }
+    
+    /* resizing for when it's active */    
+    input[type=submit]:active {
+        background-color: #00C5CD;
+    }
+     
+    /* resizing for main headings */      
+    h1 {
+        font-family: 'roboto', sans-serif;
+        font-size: 2.1em;
+        color: #00C5CD;
+    }
+}
+
+
+
+
+
